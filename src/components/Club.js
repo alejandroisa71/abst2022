@@ -7,7 +7,7 @@ import { Animated } from "react-animated-css";
 function Club({ title, imageSource, text, url }) {
   return (
     <Animated animationIn="zoomInDown" animationOut="fadeOut" isVisible={true}>
-      <div className="card text-center bg-dark">
+      <div className="card text-center bg-dark mt-4 ">
         <div className="card-body text-light">
           <div className="overflow p-5">
             <img src={imageSource} alt="" className="card-img-top " />

@@ -25,6 +25,12 @@ const clubes = [
     image: imagen3,
     url: "https://youtube.com",
   },
+  {
+    id: 3,
+    title: "Concepción Futbol Club",
+    image: imagen3,
+    url: "https://youtube.com",
+  },
 ];
 
 function Clubes() {
